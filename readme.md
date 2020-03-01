@@ -13,3 +13,8 @@ Kriging:
 Neural Processes:
 
 ![](docs/np_grid.png)
+
+
+Map with NP grid
+
+![](docs/map.png)
