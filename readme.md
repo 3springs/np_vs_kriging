@@ -2,11 +2,14 @@ Quick test of Neural Processes vs Kriging (Gaussian Processes). It's test on the
 
 
 Results on test set:
+
 ![](docs/box_plot.png)
 
 Kriging:
+
 ![](docs/kriging.png)
 
 
 Neural Processes:
+
 ![](docs/np_grid.png)
