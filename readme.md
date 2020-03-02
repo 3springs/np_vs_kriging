@@ -1,11 +1,11 @@
 Quick test of Neural Processes vs Kriging (Gaussian Processes). 
 
 
-The results look promising in terms of gridding fit. You can likely get a good result with a better scalability than Kriging ($O(x+y)$ vs $O((x+y)^3)$) *.
+The results look promising in terms of gridding fit. You can likely get a good result with a better scalability than Kriging (O(x+y) vs O((x+y)^3)) *.
 
 However, it does show some neural network like behviour: where it extrapolates at the edges instead of returning to the mean. It does not extrapolate outside of the min and max of the context input data however.
 
-\* Note that scaling is not that simple. This uses [attentive neural processes](https://arxiv.org/pdf/1901.05761.pdf) that have scalability of $O(x(x+y))$. And it's possible to use Kriging methods that reduce the scalability [to $O(x^2)$ or similar](https://arxiv.org/abs/1809.11165).
+\* Note that scaling is not that simple. This uses [attentive neural processes](https://arxiv.org/pdf/1901.05761.pdf) that have scalability of O(x(x+y)). And it's possible to use Kriging methods that reduce the scalability [to O(x^2) or similar](https://arxiv.org/abs/1809.11165).
 
 
 
