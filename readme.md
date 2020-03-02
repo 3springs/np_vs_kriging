@@ -1,7 +1,10 @@
 Quick test of Neural Processes vs Kriging (Gaussian Processes). 
 
 
-The results look promising in terms of gridding fit. You can likely get a good result with a better scalability than Kriging (O(x) vs O($x^3$)). However, it does show some neural network like behviour: where it wildly extrapolates at the edges instead of returning to the mean.
+The results look promising in terms of gridding fit. You can likely get a good result with a better scalability than Kriging (O(x) vs O($x^3$)). 
+
+
+However, it does show some neural network like behviour: where it extrapolates at the edges instead of returning to the mean. It does not extrapolate outside of the min and max of the context input data however.
 
 # Results 
 
